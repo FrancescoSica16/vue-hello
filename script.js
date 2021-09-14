@@ -1,9 +1,12 @@
 
 var app = new Vue({
 
-    el: 'app',
+    el: '#app',
 
     data: {
-      message: 
+        rifImgSRC : "link",
+        rifImgALT : " testo alternativo ",
+        classTitol: "text-center text-danger" ,
+        message: "Titolo della pagina"
     }
   })
